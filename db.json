@@ -1,0 +1,472 @@
+{
+  "users": [
+    {
+      "id": "user-demo",
+      "email": "demo@example.com",
+      "passwordHash": "demo",
+      "name": "Alex Johnson",
+      "householdId": "household-demo"
+    },
+    {
+      "id": "user-4604eaefe1c0",
+      "email": "cvsdfgtrxf@gmail.com",
+      "passwordHash": "ewERFr",
+      "name": "bv",
+      "householdId": "household-d7e5794c4310"
+    }
+  ],
+  "households": [
+    {
+      "id": "household-demo",
+      "name": "Family Home"
+    },
+    {
+      "id": "household-d7e5794c4310",
+      "name": "fdbtfg"
+    }
+  ],
+  "items": [
+    {
+      "id": "item-milk",
+      "householdId": "household-demo",
+      "name": "Amul Fresh Milk",
+      "barcode": "8901262150032",
+      "defaultUnit": "L",
+      "category": "Dairy",
+      "preferredAisle": "Aisle A: Chilled",
+      "minStockQty": 2,
+      "imageUrl": "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80&w=300&h=300"
+    },
+    {
+      "id": "item-bread",
+      "householdId": "household-demo",
+      "name": "Whole Wheat Bread",
+      "barcode": "8901234567890",
+      "defaultUnit": "PIECE",
+      "category": "Bakery",
+      "preferredAisle": "Aisle C: Breads",
+      "minStockQty": 1,
+      "imageUrl": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=300&h=300"
+    },
+    {
+      "id": "item-eggs",
+      "householdId": "household-demo",
+      "name": "Farm Fresh Eggs 6-pack",
+      "barcode": "8902233445566",
+      "defaultUnit": "PACK",
+      "category": "Poultry",
+      "preferredAisle": "Aisle A: Chilled",
+      "minStockQty": 1,
+      "imageUrl": "https://images.unsplash.com/photo-1518569656558-1f25e69d93d7?auto=format&fit=crop&q=80&w=300&h=300"
+    },
+    {
+      "id": "item-apples",
+      "householdId": "household-demo",
+      "name": "Organic Red Apples",
+      "barcode": null,
+      "defaultUnit": "KG",
+      "category": "Produce",
+      "preferredAisle": "Aisle B: Fresh Produce",
+      "minStockQty": 1.5,
+      "imageUrl": "https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?auto=format&fit=crop&q=80&w=300&h=300"
+    },
+    {
+      "id": "item-rice",
+      "householdId": "household-demo",
+      "name": "Basmati Rice 5kg",
+      "barcode": "8904433221100",
+      "defaultUnit": "KG",
+      "category": "Pantry Staples",
+      "preferredAisle": "Aisle D: Grains & Spices",
+      "minStockQty": 2,
+      "imageUrl": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=300&h=300"
+    },
+    {
+      "id": "item-chicken",
+      "householdId": "household-demo",
+      "name": "Chicken Breast",
+      "barcode": null,
+      "defaultUnit": "KG",
+      "category": "Meat",
+      "preferredAisle": "Aisle F: Meats",
+      "minStockQty": 1,
+      "imageUrl": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&q=80&w=300&h=300"
+    },
+    {
+      "id": "item-strawberry",
+      "householdId": "household-demo",
+      "name": "Sweet Garden Strawberries",
+      "barcode": "8901122334455",
+      "defaultUnit": "PACK",
+      "category": "Produce",
+      "preferredAisle": "Aisle B: Fresh Produce",
+      "minStockQty": 1,
+      "imageUrl": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?auto=format&fit=crop&q=80&w=300&h=300"
+    },
+    {
+      "id": "item-avocado",
+      "householdId": "household-demo",
+      "name": "Fresh Organic Avocados",
+      "barcode": "8902233112233",
+      "defaultUnit": "PIECE",
+      "category": "Produce",
+      "preferredAisle": "Aisle B: Fresh Produce",
+      "minStockQty": 2,
+      "imageUrl": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?auto=format&fit=crop&q=80&w=300&h=300"
+    },
+    {
+      "id": "item-coffee",
+      "householdId": "household-demo",
+      "name": "Premium Dark Beans Coffee",
+      "barcode": "8903344223344",
+      "defaultUnit": "PACK",
+      "category": "Beverages",
+      "preferredAisle": "Aisle H: Beverages",
+      "minStockQty": 1,
+      "imageUrl": "https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&q=80&w=300&h=300"
+    },
+    {
+      "id": "item-pasta",
+      "householdId": "household-demo",
+      "name": "Italian Wheat Pasta",
+      "barcode": "8904555334455",
+      "defaultUnit": "PACK",
+      "category": "Pantry Staples",
+      "preferredAisle": "Aisle D: Grains & Spices",
+      "minStockQty": 2,
+      "imageUrl": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&q=80&w=300&h=300"
+    },
+    {
+      "id": "item-cereal",
+      "householdId": "household-demo",
+      "name": "Honey Nut Breakfast Cereal",
+      "barcode": "8905666445566",
+      "defaultUnit": "PACK",
+      "category": "Snacks",
+      "preferredAisle": "Aisle E: Snacks & Cereals",
+      "minStockQty": 1,
+      "imageUrl": "https://images.unsplash.com/photo-1521485950395-bcfb5fc5d291?auto=format&fit=crop&q=80&w=300&h=300"
+    },
+    {
+      "id": "item-292a31e8ffbc",
+      "householdId": "household-d7e5794c4310",
+      "name": "apple",
+      "barcode": "karthk@852359896",
+      "defaultUnit": "KG",
+      "category": "Snacks",
+      "preferredAisle": "hydrabad",
+      "minStockQty": 1,
+      "imageUrl": "https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?auto=format&fit=crop&q=80&w=300&h=300"
+    },
+    {
+      "id": "item-milk-u",
+      "householdId": "household-d7e5794c4310",
+      "name": "Amul Fresh Milk",
+      "barcode": "8901262150032",
+      "defaultUnit": "L",
+      "category": "Dairy",
+      "preferredAisle": "Aisle A: Chilled",
+      "minStockQty": 2,
+      "imageUrl": "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80&w=300&h=300"
+    },
+    {
+      "id": "item-bread-u",
+      "householdId": "household-d7e5794c4310",
+      "name": "Whole Wheat Bread",
+      "barcode": "8901234567890",
+      "defaultUnit": "PIECE",
+      "category": "Bakery",
+      "preferredAisle": "Aisle C: Breads",
+      "minStockQty": 1,
+      "imageUrl": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=300&h=300"
+    },
+    {
+      "id": "item-eggs-u",
+      "householdId": "household-d7e5794c4310",
+      "name": "Farm Fresh Eggs 6-pack",
+      "barcode": "8902233445566",
+      "defaultUnit": "PACK",
+      "category": "Poultry",
+      "preferredAisle": "Aisle A: Chilled",
+      "minStockQty": 1,
+      "imageUrl": "https://images.unsplash.com/photo-1518569656558-1f25e69d93d7?auto=format&fit=crop&q=80&w=300&h=300"
+    },
+    {
+      "id": "item-rice-u",
+      "householdId": "household-d7e5794c4310",
+      "name": "Basmati Rice 5kg",
+      "barcode": "8904433221100",
+      "defaultUnit": "KG",
+      "category": "Pantry Staples",
+      "preferredAisle": "Aisle D: Grains & Spices",
+      "minStockQty": 2,
+      "imageUrl": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=300&h=300"
+    },
+    {
+      "id": "item-chicken-u",
+      "householdId": "household-d7e5794c4310",
+      "name": "Chicken Breast",
+      "barcode": null,
+      "defaultUnit": "KG",
+      "category": "Meat",
+      "preferredAisle": "Aisle F: Meats",
+      "minStockQty": 1,
+      "imageUrl": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&q=80&w=300&h=300"
+    },
+    {
+      "id": "item-strawberry-u",
+      "householdId": "household-d7e5794c4310",
+      "name": "Sweet Garden Strawberries",
+      "barcode": "8901122334455",
+      "defaultUnit": "PACK",
+      "category": "Produce",
+      "preferredAisle": "Aisle B: Fresh Produce",
+      "minStockQty": 1,
+      "imageUrl": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?auto=format&fit=crop&q=80&w=300&h=300"
+    },
+    {
+      "id": "item-avocado-u",
+      "householdId": "household-d7e5794c4310",
+      "name": "Fresh Organic Avocados",
+      "barcode": "8902233112233",
+      "defaultUnit": "PIECE",
+      "category": "Produce",
+      "preferredAisle": "Aisle B: Fresh Produce",
+      "minStockQty": 2,
+      "imageUrl": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?auto=format&fit=crop&q=80&w=300&h=300"
+    },
+    {
+      "id": "item-coffee-u",
+      "householdId": "household-d7e5794c4310",
+      "name": "Premium Dark Beans Coffee",
+      "barcode": "8903344223344",
+      "defaultUnit": "PACK",
+      "category": "Beverages",
+      "preferredAisle": "Aisle H: Beverages",
+      "minStockQty": 1,
+      "imageUrl": "https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&q=80&w=300&h=300"
+    },
+    {
+      "id": "item-pasta-u",
+      "householdId": "household-d7e5794c4310",
+      "name": "Italian Wheat Pasta",
+      "barcode": "8904555334455",
+      "defaultUnit": "PACK",
+      "category": "Pantry Staples",
+      "preferredAisle": "Aisle D: Grains & Spices",
+      "minStockQty": 2,
+      "imageUrl": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&q=80&w=300&h=300"
+    },
+    {
+      "id": "item-cereal-u",
+      "householdId": "household-d7e5794c4310",
+      "name": "Honey Nut Breakfast Cereal",
+      "barcode": "8905666445566",
+      "defaultUnit": "PACK",
+      "category": "Snacks",
+      "preferredAisle": "Aisle E: Snacks & Cereals",
+      "minStockQty": 1,
+      "imageUrl": "https://images.unsplash.com/photo-1521485950395-bcfb5fc5d291?auto=format&fit=crop&q=80&w=300&h=300"
+    }
+  ],
+  "inventoryLots": [
+    {
+      "id": "lot-milk-1",
+      "itemId": "item-milk",
+      "qty": 1,
+      "unit": "L",
+      "boughtAt": "2026-05-27T07:11:18.298Z",
+      "expiryAt": "2026-05-30T07:11:18.298Z",
+      "notes": "BigBasket",
+      "consumedQty": 0
+    },
+    {
+      "id": "lot-bread-1",
+      "itemId": "item-bread",
+      "qty": 1,
+      "unit": "PIECE",
+      "boughtAt": "2026-05-23T07:11:18.298Z",
+      "expiryAt": "2026-05-26T07:11:18.298Z",
+      "notes": "Local Bakery",
+      "consumedQty": 0.8
+    },
+    {
+      "id": "lot-eggs-1",
+      "itemId": "item-eggs",
+      "qty": 2,
+      "unit": "PACK",
+      "boughtAt": "2026-05-26T07:11:18.298Z",
+      "expiryAt": "2026-06-07T07:11:18.298Z",
+      "notes": "Supermarket",
+      "consumedQty": 0
+    },
+    {
+      "id": "lot-chicken-1",
+      "itemId": "item-chicken",
+      "qty": 1.5,
+      "unit": "KG",
+      "boughtAt": "2026-05-28T07:11:18.298Z",
+      "expiryAt": "2026-05-29T07:11:18.298Z",
+      "notes": "Meat Shop",
+      "consumedQty": 1
+    },
+    {
+      "id": "lot-rice-1",
+      "itemId": "item-rice",
+      "qty": 5,
+      "unit": "KG",
+      "boughtAt": "2026-05-13T07:11:18.298Z",
+      "expiryAt": null,
+      "notes": "Dmarts",
+      "consumedQty": 3.5
+    }
+  ],
+  "groceryLists": [
+    {
+      "id": "list-main",
+      "householdId": "household-demo",
+      "title": "Weekly Essentials",
+      "createdAt": "2026-05-28T07:11:18.298Z"
+    },
+    {
+      "id": "list-741cedf85222",
+      "householdId": "household-d7e5794c4310",
+      "title": "Main Household List",
+      "createdAt": "2026-05-28T07:47:49.656Z"
+    }
+  ],
+  "groceryEntries": [
+    {
+      "id": "entry-1",
+      "listId": "list-main",
+      "itemId": "item-milk",
+      "customText": null,
+      "qty": 2,
+      "unit": "L",
+      "checked": false,
+      "source": "lowstock",
+      "neededBy": null
+    },
+    {
+      "id": "entry-2",
+      "listId": "list-main",
+      "itemId": null,
+      "customText": "Corriander leaves & mint bunch",
+      "qty": 1,
+      "unit": "PIECE",
+      "checked": false,
+      "source": "manual",
+      "neededBy": null
+    },
+    {
+      "id": "entry-3",
+      "listId": "list-main",
+      "itemId": "item-eggs",
+      "customText": null,
+      "qty": 1,
+      "unit": "PACK",
+      "checked": true,
+      "source": "manual",
+      "neededBy": null
+    }
+  ],
+  "recipes": [
+    {
+      "id": "recipe-kheer",
+      "householdId": "household-demo",
+      "title": "Delicious Rice Kheer (Sweet Dessert)",
+      "stepsMd": "1. Wash and rinse the Basmati rice, soak for 30 minutes.\n2. Boil 1L of milk in a heavy-bottomed pan. Add soaked rice.\n3. Simmer on low heat, stirring occasionally, until milk reduces to half.\n4. Add sugar, cardamoms, and dry fruits. Garnish and serve warm or chilled.",
+      "ingredients": [
+        {
+          "id": "ring-k-milk",
+          "recipeId": "recipe-kheer",
+          "itemId": "item-milk",
+          "name": "Amul Fresh Milk",
+          "qty": 1,
+          "unit": "L"
+        },
+        {
+          "id": "ring-k-rice",
+          "recipeId": "recipe-kheer",
+          "itemId": "item-rice",
+          "name": "Basmati Rice",
+          "qty": 0.1,
+          "unit": "KG"
+        },
+        {
+          "id": "ring-k-nuts",
+          "recipeId": "recipe-kheer",
+          "itemId": null,
+          "name": "Almonds & Cashews (Mixed)",
+          "qty": 50,
+          "unit": "GRAM"
+        }
+      ]
+    },
+    {
+      "id": "recipe-french-toast",
+      "householdId": "household-demo",
+      "title": "Quick French Toast",
+      "stepsMd": "1. Whisk eggs, milk, cinnamon, and vanilla in a shallow bowl.\n2. Dip bread slices into the mixture quickly.\n3. Cook on a greased griddle over medium-high heat until golden brown on both sides.\n4. Serve hot with syrup or butter.",
+      "ingredients": [
+        {
+          "id": "ring-f-bread",
+          "recipeId": "recipe-french-toast",
+          "itemId": "item-bread",
+          "name": "Wheat Bread",
+          "qty": 4,
+          "unit": "PIECE"
+        },
+        {
+          "id": "ring-f-eggs",
+          "recipeId": "recipe-french-toast",
+          "itemId": "item-eggs",
+          "name": "Farm Eggs",
+          "qty": 2,
+          "unit": "PIECE"
+        },
+        {
+          "id": "ring-f-milk",
+          "recipeId": "recipe-french-toast",
+          "itemId": "item-milk",
+          "name": "Milk",
+          "qty": 0.2,
+          "unit": "L"
+        }
+      ]
+    }
+  ],
+  "priceHistories": [
+    {
+      "id": "p-milk-1",
+      "itemId": "item-milk",
+      "store": "BigBasket",
+      "price": 64,
+      "currency": "INR",
+      "recordedAt": "2026-05-18T07:11:18.298Z"
+    },
+    {
+      "id": "p-milk-2",
+      "itemId": "item-milk",
+      "store": "Zepto",
+      "price": 66,
+      "currency": "INR",
+      "recordedAt": "2026-05-26T07:11:18.298Z"
+    },
+    {
+      "id": "p-rice-1",
+      "itemId": "item-rice",
+      "store": "Dmarts",
+      "price": 420,
+      "currency": "INR",
+      "recordedAt": "2026-05-13T07:11:18.298Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "36179751564719e3b77fbac8ebbc4d863394efa4dd9a72d705123256d23a8c93",
+      "userId": "user-4604eaefe1c0",
+      "expiresAt": "2026-06-27T07:22:25.540Z"
+    }
+  ]
+}

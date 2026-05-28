@@ -1,0 +1,10 @@
+{
+  "name": "Smart Grocery List & Inventory Manager",
+  "description": "An advanced full-stack pantry inventory tracker, expiry monitor, receipt OCR parser, and predictive restock shopping list manager.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
